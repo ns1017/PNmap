@@ -23,6 +23,8 @@ Reports:
   - Example: scan_report_20250916T120000Z.txt
 
 Notes:
+  - **You need to have nmap.exe and its associated .dlls in the same directory. nmap can be found here: "https://nmap.org/".
+  - If you're altering the wrapper, you may need to pull new .dlls using bash (see .spec file).
   - Default scan (-sT) works without admin/Npcap. Recommended for USB use.
   - SYN scan (-sS) may fail if Npcap or admin rights are not present.
   - Reports and logs are saved to the working directory.
