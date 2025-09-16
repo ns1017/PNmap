@@ -1,0 +1,13 @@
+# Core runtime requirements
+python-nmap>=0.6.4
+
+# Optional: ML summarization (not bundled in USB build by default)
+# transformers>=4.30.0
+# torch>=2.0.0
+
+# Packaging
+pyinstaller>=5.4
+
+# Dev/test (optional)
+# pytest>=7.0
+# pytest-mock>=3.10
